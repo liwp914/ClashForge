@@ -193,21 +193,6 @@ proxies:
   server: 84.19.31.63
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|--18
-  password: amazonskr05
-  port: 443
-  server: 3.38.212.48
-  tfo: false
-  type: ss
-- name: 🇯🇵JP-13.114.67.166-6257
-  type: ss
-  server: 13.114.67.166
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
 - name: 🇬🇧 英国
   server: 51.38.65.155
   port: 443
@@ -230,14 +215,6 @@ proxies:
   cipher: rc4-md5
   protocol: origin
   obfs: plain
-- name: 台湾3
-  server: tw4-cdn-route.couldflare-cdn.com
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: false
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-  password: exaxgqkKkd0TAMrCxeonWg==
 - name: 日本2
   server: jpgmo102-cdn-route.couldflare-cdn.com
   port: 443
@@ -331,29 +308,6 @@ proxies:
   client-fingerprint: chrome
   servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
   network: tcp
-- name: KR_b5ce7_0012
-  server: 43.200.1.13
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: US_b5ce7_0025
-  server: nsus3.irundns.net
-  port: 443
-  type: ssr
-  cipher: aes-128-cfb
-  password: +asd6a5s5df+
-  protocol: auth_aes128_md5
-  obfs: http_post
-  protocol-param: ''
-  obfs-param: ''
-- name: 英国+伦敦Amazon数据中心-HmHY
-  type: ss
-  server: series-a2.varzesh360.co
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: mps3FwmDjLrWaOVg
-  udp: true
 - name: 🇩🇪 DE_324
   type: ss
   server: 84.19.31.63
@@ -381,39 +335,33 @@ proxy-groups:
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
   - www.wto.org
-  - brazil.com
-  - fbi.gov
-  - 🇮🇸 time.is
-  - 🇷🇺 russia.com
   - www.gov.ua
-  - 🇭🇰 icook.hk
-  - SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-79.110.53.169:8080
-  - 🇺🇸_US_美国_2
   - www.gov.se
+  - 🇭🇰 icook.hk
+  - 🇮🇸 time.is
+  - www.gco.gov.qa
+  - fbi.gov
+  - brazil.com
+  - 🇷🇺 russia.com
+  - 🇺🇸_US_美国_2
+  - SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-79.110.53.169:8080
   - 🇨🇳 visa.cn
   - 🇩🇪 DE_324
   - DE德国(mibei77.com 米贝节点分享)
-  - US_b5ce7_0025
   - 🇬🇧 英国
   - 🇳🇱 荷兰
-  - www.gco.gov.qa
-  - 英国+伦敦Amazon数据中心-HmHY
-  - 🇺🇸 US_470
   - DE_b5ce7_0008
   - 🇱🇻_LV_拉脱维亚
-  - 🇯🇵JP-13.114.67.166-6257
-  - 美国3
-  - KR_b5ce7_0012
-  - 0|--18
   - 美国5
+  - 美国3
   - 🇯🇵 免费-日本2-Ver.7
   - 🇯🇵 免费-日本4-Ver.7
-  - 🇯🇵4
-  - 🇯🇵 免费-日本6-Ver.7
-  - 日本2
+  - 🇺🇸 US_470
   - 🇸🇬6
+  - 🇯🇵 免费-日本6-Ver.7
   - 🇯🇵2
-  - 台湾3
+  - 日本2
+  - 🇯🇵4
   - 香港2
   url: http://www.pinterest.com
   interval: 300
@@ -423,39 +371,33 @@ proxy-groups:
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
   - www.wto.org
-  - brazil.com
-  - fbi.gov
-  - 🇮🇸 time.is
-  - 🇷🇺 russia.com
   - www.gov.ua
-  - 🇭🇰 icook.hk
-  - SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-79.110.53.169:8080
-  - 🇺🇸_US_美国_2
   - www.gov.se
+  - 🇭🇰 icook.hk
+  - 🇮🇸 time.is
+  - www.gco.gov.qa
+  - fbi.gov
+  - brazil.com
+  - 🇷🇺 russia.com
+  - 🇺🇸_US_美国_2
+  - SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-79.110.53.169:8080
   - 🇨🇳 visa.cn
   - 🇩🇪 DE_324
   - DE德国(mibei77.com 米贝节点分享)
-  - US_b5ce7_0025
   - 🇬🇧 英国
   - 🇳🇱 荷兰
-  - www.gco.gov.qa
-  - 英国+伦敦Amazon数据中心-HmHY
-  - 🇺🇸 US_470
   - DE_b5ce7_0008
   - 🇱🇻_LV_拉脱维亚
-  - 🇯🇵JP-13.114.67.166-6257
-  - 美国3
-  - KR_b5ce7_0012
-  - 0|--18
   - 美国5
+  - 美国3
   - 🇯🇵 免费-日本2-Ver.7
   - 🇯🇵 免费-日本4-Ver.7
-  - 🇯🇵4
-  - 🇯🇵 免费-日本6-Ver.7
-  - 日本2
+  - 🇺🇸 US_470
   - 🇸🇬6
+  - 🇯🇵 免费-日本6-Ver.7
   - 🇯🇵2
-  - 台湾3
+  - 日本2
+  - 🇯🇵4
   - 香港2
   url: http://www.pinterest.com
   interval: 300
@@ -463,39 +405,33 @@ proxy-groups:
   type: select
   proxies:
   - www.wto.org
-  - brazil.com
-  - fbi.gov
-  - 🇮🇸 time.is
-  - 🇷🇺 russia.com
   - www.gov.ua
-  - 🇭🇰 icook.hk
-  - SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-79.110.53.169:8080
-  - 🇺🇸_US_美国_2
   - www.gov.se
+  - 🇭🇰 icook.hk
+  - 🇮🇸 time.is
+  - www.gco.gov.qa
+  - fbi.gov
+  - brazil.com
+  - 🇷🇺 russia.com
+  - 🇺🇸_US_美国_2
+  - SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-79.110.53.169:8080
   - 🇨🇳 visa.cn
   - 🇩🇪 DE_324
   - DE德国(mibei77.com 米贝节点分享)
-  - US_b5ce7_0025
   - 🇬🇧 英国
   - 🇳🇱 荷兰
-  - www.gco.gov.qa
-  - 英国+伦敦Amazon数据中心-HmHY
-  - 🇺🇸 US_470
   - DE_b5ce7_0008
   - 🇱🇻_LV_拉脱维亚
-  - 🇯🇵JP-13.114.67.166-6257
-  - 美国3
-  - KR_b5ce7_0012
-  - 0|--18
   - 美国5
+  - 美国3
   - 🇯🇵 免费-日本2-Ver.7
   - 🇯🇵 免费-日本4-Ver.7
-  - 🇯🇵4
-  - 🇯🇵 免费-日本6-Ver.7
-  - 日本2
+  - 🇺🇸 US_470
   - 🇸🇬6
+  - 🇯🇵 免费-日本6-Ver.7
   - 🇯🇵2
-  - 台湾3
+  - 日本2
+  - 🇯🇵4
   - 香港2
 rules:
 - DOMAIN,app.adjust.com,DIRECT
