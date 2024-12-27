@@ -172,13 +172,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sub.fish2018.us.kg
-- name: 🇺🇸_US_美国_2
-  port: 8080
-  server: 79.110.53.169
-  type: ss
-  udp: true
-  password: 14fFPrbezE3HDZzsMOr6
-  cipher: rc4-md5
 - name: 🇱🇻_LV_拉脱维亚
   port: 990
   server: 46.183.217.232
@@ -207,14 +200,6 @@ proxies:
   password: auto
   skip-cert-verify: true
   tfo: false
-- name: SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-79.110.53.169:8080
-  type: ssr
-  server: 79.110.53.169
-  port: 8080
-  password: 14fFPrbezE3HDZzsMOr6
-  cipher: rc4-md5
-  protocol: origin
-  obfs: plain
 - name: 日本2
   server: jpgmo102-cdn-route.couldflare-cdn.com
   port: 443
@@ -327,30 +312,28 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - www.gov.ua
-  - 🇭🇰 icook.hk
   - 🇷🇺 russia.com
-  - fbi.gov
-  - 🇮🇸 time.is
-  - 🇨🇳 visa.cn
-  - www.gco.gov.qa
   - www.gov.se
   - www.wto.org
+  - www.gco.gov.qa
+  - fbi.gov
+  - 🇮🇸 time.is
+  - 🇭🇰 icook.hk
   - brazil.com
-  - 🇺🇸_US_美国_2
-  - SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-79.110.53.169:8080
-  - DE德国(mibei77.com 米贝节点分享)
+  - www.gov.ua
+  - 🇨🇳 visa.cn
   - 🇩🇪 DE_324
+  - DE德国(mibei77.com 米贝节点分享)
   - 🇬🇧 英国
-  - 美国3
   - 🇳🇱 荷兰
-  - 美国5
-  - DE_b5ce7_0008
-  - 🇯🇵 免费-日本2-Ver.7
-  - 🇯🇵 免费-日本4-Ver.7
-  - 🇯🇵2
-  - 🇯🇵4
   - 🇱🇻_LV_拉脱维亚
+  - DE_b5ce7_0008
+  - 美国5
+  - 美国3
+  - 🇯🇵2
+  - 🇯🇵 免费-日本4-Ver.7
+  - 🇯🇵 免费-日本2-Ver.7
+  - 🇯🇵4
   - 🇸🇬6
   - 🇯🇵 免费-日本6-Ver.7
   - 日本2
@@ -362,30 +345,28 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - www.gov.ua
-  - 🇭🇰 icook.hk
   - 🇷🇺 russia.com
-  - fbi.gov
-  - 🇮🇸 time.is
-  - 🇨🇳 visa.cn
-  - www.gco.gov.qa
   - www.gov.se
   - www.wto.org
+  - www.gco.gov.qa
+  - fbi.gov
+  - 🇮🇸 time.is
+  - 🇭🇰 icook.hk
   - brazil.com
-  - 🇺🇸_US_美国_2
-  - SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-79.110.53.169:8080
-  - DE德国(mibei77.com 米贝节点分享)
+  - www.gov.ua
+  - 🇨🇳 visa.cn
   - 🇩🇪 DE_324
+  - DE德国(mibei77.com 米贝节点分享)
   - 🇬🇧 英国
-  - 美国3
   - 🇳🇱 荷兰
-  - 美国5
-  - DE_b5ce7_0008
-  - 🇯🇵 免费-日本2-Ver.7
-  - 🇯🇵 免费-日本4-Ver.7
-  - 🇯🇵2
-  - 🇯🇵4
   - 🇱🇻_LV_拉脱维亚
+  - DE_b5ce7_0008
+  - 美国5
+  - 美国3
+  - 🇯🇵2
+  - 🇯🇵 免费-日本4-Ver.7
+  - 🇯🇵 免费-日本2-Ver.7
+  - 🇯🇵4
   - 🇸🇬6
   - 🇯🇵 免费-日本6-Ver.7
   - 日本2
@@ -395,30 +376,28 @@ proxy-groups:
 - name: 手动选择
   type: select
   proxies:
-  - www.gov.ua
-  - 🇭🇰 icook.hk
   - 🇷🇺 russia.com
-  - fbi.gov
-  - 🇮🇸 time.is
-  - 🇨🇳 visa.cn
-  - www.gco.gov.qa
   - www.gov.se
   - www.wto.org
+  - www.gco.gov.qa
+  - fbi.gov
+  - 🇮🇸 time.is
+  - 🇭🇰 icook.hk
   - brazil.com
-  - 🇺🇸_US_美国_2
-  - SSR-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-79.110.53.169:8080
-  - DE德国(mibei77.com 米贝节点分享)
+  - www.gov.ua
+  - 🇨🇳 visa.cn
   - 🇩🇪 DE_324
+  - DE德国(mibei77.com 米贝节点分享)
   - 🇬🇧 英国
-  - 美国3
   - 🇳🇱 荷兰
-  - 美国5
-  - DE_b5ce7_0008
-  - 🇯🇵 免费-日本2-Ver.7
-  - 🇯🇵 免费-日本4-Ver.7
-  - 🇯🇵2
-  - 🇯🇵4
   - 🇱🇻_LV_拉脱维亚
+  - DE_b5ce7_0008
+  - 美国5
+  - 美国3
+  - 🇯🇵2
+  - 🇯🇵 免费-日本4-Ver.7
+  - 🇯🇵 免费-日本2-Ver.7
+  - 🇯🇵4
   - 🇸🇬6
   - 🇯🇵 免费-日本6-Ver.7
   - 日本2
