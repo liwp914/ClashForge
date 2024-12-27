@@ -253,16 +253,6 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 2afbc97400ca71c8f3306f9843a6e1c2
   udp: true
-- name: 🇯🇵 免费-日本2-Ver.7
-  server: l4pwe-g03.jp02-9a99-vm0.entry.fr0307a.art
-  port: 11775
-  type: vmess
-  uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f
-  alterId: 99999
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  udp: true
 - name: 🇯🇵 免费-日本4-Ver.7
   server: 4sq5c-g03.jp04-3771-vm0.entry.fr0307a.art
   port: 446
@@ -312,31 +302,30 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇷🇺 russia.com
-  - www.gov.se
-  - www.wto.org
-  - www.gco.gov.qa
-  - fbi.gov
-  - 🇮🇸 time.is
-  - 🇭🇰 icook.hk
-  - brazil.com
   - www.gov.ua
+  - brazil.com
+  - 🇷🇺 russia.com
+  - 美国5
+  - www.gco.gov.qa
+  - 🇮🇸 time.is
+  - www.wto.org
+  - 🇭🇰 icook.hk
+  - www.gov.se
+  - fbi.gov
+  - 美国3
   - 🇨🇳 visa.cn
-  - 🇩🇪 DE_324
+  - 🇯🇵 免费-日本4-Ver.7
+  - 🇯🇵2
+  - 🇯🇵4
   - DE德国(mibei77.com 米贝节点分享)
+  - 🇩🇪 DE_324
+  - 🇯🇵 免费-日本6-Ver.7
+  - 🇸🇬6
+  - 🇱🇻_LV_拉脱维亚
+  - 日本2
   - 🇬🇧 英国
   - 🇳🇱 荷兰
-  - 🇱🇻_LV_拉脱维亚
   - DE_b5ce7_0008
-  - 美国5
-  - 美国3
-  - 🇯🇵2
-  - 🇯🇵 免费-日本4-Ver.7
-  - 🇯🇵 免费-日本2-Ver.7
-  - 🇯🇵4
-  - 🇸🇬6
-  - 🇯🇵 免费-日本6-Ver.7
-  - 日本2
   - 香港2
   url: http://www.pinterest.com
   interval: 300
@@ -345,62 +334,60 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇷🇺 russia.com
-  - www.gov.se
-  - www.wto.org
-  - www.gco.gov.qa
-  - fbi.gov
-  - 🇮🇸 time.is
-  - 🇭🇰 icook.hk
-  - brazil.com
   - www.gov.ua
+  - brazil.com
+  - 🇷🇺 russia.com
+  - 美国5
+  - www.gco.gov.qa
+  - 🇮🇸 time.is
+  - www.wto.org
+  - 🇭🇰 icook.hk
+  - www.gov.se
+  - fbi.gov
+  - 美国3
   - 🇨🇳 visa.cn
-  - 🇩🇪 DE_324
+  - 🇯🇵 免费-日本4-Ver.7
+  - 🇯🇵2
+  - 🇯🇵4
   - DE德国(mibei77.com 米贝节点分享)
+  - 🇩🇪 DE_324
+  - 🇯🇵 免费-日本6-Ver.7
+  - 🇸🇬6
+  - 🇱🇻_LV_拉脱维亚
+  - 日本2
   - 🇬🇧 英国
   - 🇳🇱 荷兰
-  - 🇱🇻_LV_拉脱维亚
   - DE_b5ce7_0008
-  - 美国5
-  - 美国3
-  - 🇯🇵2
-  - 🇯🇵 免费-日本4-Ver.7
-  - 🇯🇵 免费-日本2-Ver.7
-  - 🇯🇵4
-  - 🇸🇬6
-  - 🇯🇵 免费-日本6-Ver.7
-  - 日本2
   - 香港2
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇷🇺 russia.com
-  - www.gov.se
-  - www.wto.org
-  - www.gco.gov.qa
-  - fbi.gov
-  - 🇮🇸 time.is
-  - 🇭🇰 icook.hk
-  - brazil.com
   - www.gov.ua
+  - brazil.com
+  - 🇷🇺 russia.com
+  - 美国5
+  - www.gco.gov.qa
+  - 🇮🇸 time.is
+  - www.wto.org
+  - 🇭🇰 icook.hk
+  - www.gov.se
+  - fbi.gov
+  - 美国3
   - 🇨🇳 visa.cn
-  - 🇩🇪 DE_324
+  - 🇯🇵 免费-日本4-Ver.7
+  - 🇯🇵2
+  - 🇯🇵4
   - DE德国(mibei77.com 米贝节点分享)
+  - 🇩🇪 DE_324
+  - 🇯🇵 免费-日本6-Ver.7
+  - 🇸🇬6
+  - 🇱🇻_LV_拉脱维亚
+  - 日本2
   - 🇬🇧 英国
   - 🇳🇱 荷兰
-  - 🇱🇻_LV_拉脱维亚
   - DE_b5ce7_0008
-  - 美国5
-  - 美国3
-  - 🇯🇵2
-  - 🇯🇵 免费-日本4-Ver.7
-  - 🇯🇵 免费-日本2-Ver.7
-  - 🇯🇵4
-  - 🇸🇬6
-  - 🇯🇵 免费-日本6-Ver.7
-  - 日本2
   - 香港2
 rules:
 - DOMAIN,app.adjust.com,DIRECT
