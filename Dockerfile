@@ -22,5 +22,8 @@ RUN pip install --no-cache-dir -r requirements.txt \
     && rm -f requirements.txt \
     mkdir input
 
+# 暴露 5354 端口
+EXPOSE 5354
+
 # 启动脚本
 CMD ["sh", "-c", "python ClashForge.py && python upload_gist.py"]
