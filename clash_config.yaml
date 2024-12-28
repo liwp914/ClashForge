@@ -302,30 +302,30 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - www.gco.gov.qa
-  - www.gov.se
-  - 🇨🇳 visa.cn
-  - www.wto.org
-  - 🇷🇺 russia.com
-  - fbi.gov
   - www.gov.ua
-  - 🇮🇸 time.is
-  - 美国5
-  - 美国3
-  - 🇭🇰 icook.hk
+  - fbi.gov
   - brazil.com
-  - 🇯🇵 免费-日本4-Ver.7
-  - 🇯🇵2
-  - 🇯🇵4
-  - 🇯🇵 免费-日本6-Ver.7
+  - www.gco.gov.qa
+  - 🇮🇸 time.is
+  - 🇨🇳 visa.cn
+  - www.gov.se
+  - 🇭🇰 icook.hk
+  - 🇷🇺 russia.com
+  - www.wto.org
   - DE德国(mibei77.com 米贝节点分享)
   - 🇩🇪 DE_324
-  - 🇸🇬6
-  - 🇱🇻_LV_拉脱维亚
+  - 美国3
+  - 美国5
+  - 🇯🇵 免费-日本4-Ver.7
+  - 🇯🇵4
+  - 🇯🇵2
   - 🇬🇧 英国
-  - 日本2
   - 🇳🇱 荷兰
   - DE_b5ce7_0008
+  - 🇱🇻_LV_拉脱维亚
+  - 🇸🇬6
+  - 🇯🇵 免费-日本6-Ver.7
+  - 日本2
   - 香港2
   url: http://www.pinterest.com
   interval: 300
@@ -334,60 +334,60 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - www.gco.gov.qa
-  - www.gov.se
-  - 🇨🇳 visa.cn
-  - www.wto.org
-  - 🇷🇺 russia.com
-  - fbi.gov
   - www.gov.ua
-  - 🇮🇸 time.is
-  - 美国5
-  - 美国3
-  - 🇭🇰 icook.hk
+  - fbi.gov
   - brazil.com
-  - 🇯🇵 免费-日本4-Ver.7
-  - 🇯🇵2
-  - 🇯🇵4
-  - 🇯🇵 免费-日本6-Ver.7
+  - www.gco.gov.qa
+  - 🇮🇸 time.is
+  - 🇨🇳 visa.cn
+  - www.gov.se
+  - 🇭🇰 icook.hk
+  - 🇷🇺 russia.com
+  - www.wto.org
   - DE德国(mibei77.com 米贝节点分享)
   - 🇩🇪 DE_324
-  - 🇸🇬6
-  - 🇱🇻_LV_拉脱维亚
+  - 美国3
+  - 美国5
+  - 🇯🇵 免费-日本4-Ver.7
+  - 🇯🇵4
+  - 🇯🇵2
   - 🇬🇧 英国
-  - 日本2
   - 🇳🇱 荷兰
   - DE_b5ce7_0008
+  - 🇱🇻_LV_拉脱维亚
+  - 🇸🇬6
+  - 🇯🇵 免费-日本6-Ver.7
+  - 日本2
   - 香港2
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - www.gco.gov.qa
-  - www.gov.se
-  - 🇨🇳 visa.cn
-  - www.wto.org
-  - 🇷🇺 russia.com
-  - fbi.gov
   - www.gov.ua
-  - 🇮🇸 time.is
-  - 美国5
-  - 美国3
-  - 🇭🇰 icook.hk
+  - fbi.gov
   - brazil.com
-  - 🇯🇵 免费-日本4-Ver.7
-  - 🇯🇵2
-  - 🇯🇵4
-  - 🇯🇵 免费-日本6-Ver.7
+  - www.gco.gov.qa
+  - 🇮🇸 time.is
+  - 🇨🇳 visa.cn
+  - www.gov.se
+  - 🇭🇰 icook.hk
+  - 🇷🇺 russia.com
+  - www.wto.org
   - DE德国(mibei77.com 米贝节点分享)
   - 🇩🇪 DE_324
-  - 🇸🇬6
-  - 🇱🇻_LV_拉脱维亚
+  - 美国3
+  - 美国5
+  - 🇯🇵 免费-日本4-Ver.7
+  - 🇯🇵4
+  - 🇯🇵2
   - 🇬🇧 英国
-  - 日本2
   - 🇳🇱 荷兰
   - DE_b5ce7_0008
+  - 🇱🇻_LV_拉脱维亚
+  - 🇸🇬6
+  - 🇯🇵 免费-日本6-Ver.7
+  - 日本2
   - 香港2
 rules:
 - DOMAIN,app.adjust.com,DIRECT
