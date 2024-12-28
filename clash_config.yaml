@@ -303,27 +303,27 @@ proxy-groups:
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
   - www.gov.ua
-  - brazil.com
-  - 🇷🇺 russia.com
-  - 美国5
-  - www.gco.gov.qa
-  - 🇮🇸 time.is
-  - www.wto.org
   - 🇭🇰 icook.hk
-  - www.gov.se
-  - fbi.gov
-  - 美国3
   - 🇨🇳 visa.cn
+  - 美国3
+  - 美国5
+  - brazil.com
+  - www.gov.se
+  - 🇷🇺 russia.com
+  - 🇮🇸 time.is
+  - www.gco.gov.qa
+  - fbi.gov
+  - www.wto.org
   - 🇯🇵 免费-日本4-Ver.7
-  - 🇯🇵2
   - 🇯🇵4
+  - 🇯🇵2
   - DE德国(mibei77.com 米贝节点分享)
   - 🇩🇪 DE_324
   - 🇯🇵 免费-日本6-Ver.7
   - 🇸🇬6
   - 🇱🇻_LV_拉脱维亚
-  - 日本2
   - 🇬🇧 英国
+  - 日本2
   - 🇳🇱 荷兰
   - DE_b5ce7_0008
   - 香港2
@@ -335,27 +335,27 @@ proxy-groups:
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
   - www.gov.ua
-  - brazil.com
-  - 🇷🇺 russia.com
-  - 美国5
-  - www.gco.gov.qa
-  - 🇮🇸 time.is
-  - www.wto.org
   - 🇭🇰 icook.hk
-  - www.gov.se
-  - fbi.gov
-  - 美国3
   - 🇨🇳 visa.cn
+  - 美国3
+  - 美国5
+  - brazil.com
+  - www.gov.se
+  - 🇷🇺 russia.com
+  - 🇮🇸 time.is
+  - www.gco.gov.qa
+  - fbi.gov
+  - www.wto.org
   - 🇯🇵 免费-日本4-Ver.7
-  - 🇯🇵2
   - 🇯🇵4
+  - 🇯🇵2
   - DE德国(mibei77.com 米贝节点分享)
   - 🇩🇪 DE_324
   - 🇯🇵 免费-日本6-Ver.7
   - 🇸🇬6
   - 🇱🇻_LV_拉脱维亚
-  - 日本2
   - 🇬🇧 英国
+  - 日本2
   - 🇳🇱 荷兰
   - DE_b5ce7_0008
   - 香港2
@@ -365,27 +365,27 @@ proxy-groups:
   type: select
   proxies:
   - www.gov.ua
-  - brazil.com
-  - 🇷🇺 russia.com
-  - 美国5
-  - www.gco.gov.qa
-  - 🇮🇸 time.is
-  - www.wto.org
   - 🇭🇰 icook.hk
-  - www.gov.se
-  - fbi.gov
-  - 美国3
   - 🇨🇳 visa.cn
+  - 美国3
+  - 美国5
+  - brazil.com
+  - www.gov.se
+  - 🇷🇺 russia.com
+  - 🇮🇸 time.is
+  - www.gco.gov.qa
+  - fbi.gov
+  - www.wto.org
   - 🇯🇵 免费-日本4-Ver.7
-  - 🇯🇵2
   - 🇯🇵4
+  - 🇯🇵2
   - DE德国(mibei77.com 米贝节点分享)
   - 🇩🇪 DE_324
   - 🇯🇵 免费-日本6-Ver.7
   - 🇸🇬6
   - 🇱🇻_LV_拉脱维亚
-  - 日本2
   - 🇬🇧 英国
+  - 日本2
   - 🇳🇱 荷兰
   - DE_b5ce7_0008
   - 香港2
