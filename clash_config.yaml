@@ -208,14 +208,6 @@ proxies:
   skip-cert-verify: false
   username: mrwdfNTD8M79LCukCieldrqZWqs=
   password: exaxgqkKkd0TAMrCxeonWg==
-- name: 香港2
-  server: hkcera3-cdn-route.couldflare-cdn.com
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: false
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-  password: exaxgqkKkd0TAMrCxeonWg==
 - name: 美国3
   server: usgp3-cdn-route.couldflare-cdn.com
   port: 443
@@ -241,13 +233,6 @@ proxies:
   udp: true
 - name: 🇯🇵4
   server: japan-4.keenvpn.me
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 2afbc97400ca71c8f3306f9843a6e1c2
-  udp: true
-- name: 🇸🇬6
-  server: singapore-6.keenvpn.me
   port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
@@ -302,31 +287,29 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 美国3
-  - 美国5
-  - 🇮🇸 time.is
-  - brazil.com
-  - 🇨🇳 visa.cn
-  - www.gco.gov.qa
-  - www.gov.ua
-  - 🇷🇺 russia.com
   - 🇭🇰 icook.hk
-  - fbi.gov
+  - 🇷🇺 russia.com
   - www.wto.org
   - www.gov.se
-  - 🇯🇵 免费-日本4-Ver.7
-  - 🇯🇵2
-  - 🇯🇵4
+  - 🇮🇸 time.is
+  - fbi.gov
+  - www.gco.gov.qa
+  - www.gov.ua
+  - brazil.com
+  - 🇨🇳 visa.cn
+  - 🇬🇧 英国
+  - 🇳🇱 荷兰
+  - DE_b5ce7_0008
   - 🇩🇪 DE_324
   - DE德国(mibei77.com 米贝节点分享)
-  - 🇯🇵 免费-日本6-Ver.7
-  - 🇸🇬6
-  - 🇳🇱 荷兰
   - 🇱🇻_LV_拉脱维亚
+  - 美国3
+  - 美国5
+  - 🇯🇵 免费-日本4-Ver.7
+  - 🇯🇵2
+  - 🇯🇵 免费-日本6-Ver.7
+  - 🇯🇵4
   - 日本2
-  - 🇬🇧 英国
-  - DE_b5ce7_0008
-  - 香港2
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -334,61 +317,57 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 美国3
-  - 美国5
-  - 🇮🇸 time.is
-  - brazil.com
-  - 🇨🇳 visa.cn
-  - www.gco.gov.qa
-  - www.gov.ua
-  - 🇷🇺 russia.com
   - 🇭🇰 icook.hk
-  - fbi.gov
+  - 🇷🇺 russia.com
   - www.wto.org
   - www.gov.se
-  - 🇯🇵 免费-日本4-Ver.7
-  - 🇯🇵2
-  - 🇯🇵4
+  - 🇮🇸 time.is
+  - fbi.gov
+  - www.gco.gov.qa
+  - www.gov.ua
+  - brazil.com
+  - 🇨🇳 visa.cn
+  - 🇬🇧 英国
+  - 🇳🇱 荷兰
+  - DE_b5ce7_0008
   - 🇩🇪 DE_324
   - DE德国(mibei77.com 米贝节点分享)
-  - 🇯🇵 免费-日本6-Ver.7
-  - 🇸🇬6
-  - 🇳🇱 荷兰
   - 🇱🇻_LV_拉脱维亚
+  - 美国3
+  - 美国5
+  - 🇯🇵 免费-日本4-Ver.7
+  - 🇯🇵2
+  - 🇯🇵 免费-日本6-Ver.7
+  - 🇯🇵4
   - 日本2
-  - 🇬🇧 英国
-  - DE_b5ce7_0008
-  - 香港2
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 美国3
-  - 美国5
-  - 🇮🇸 time.is
-  - brazil.com
-  - 🇨🇳 visa.cn
-  - www.gco.gov.qa
-  - www.gov.ua
-  - 🇷🇺 russia.com
   - 🇭🇰 icook.hk
-  - fbi.gov
+  - 🇷🇺 russia.com
   - www.wto.org
   - www.gov.se
-  - 🇯🇵 免费-日本4-Ver.7
-  - 🇯🇵2
-  - 🇯🇵4
+  - 🇮🇸 time.is
+  - fbi.gov
+  - www.gco.gov.qa
+  - www.gov.ua
+  - brazil.com
+  - 🇨🇳 visa.cn
+  - 🇬🇧 英国
+  - 🇳🇱 荷兰
+  - DE_b5ce7_0008
   - 🇩🇪 DE_324
   - DE德国(mibei77.com 米贝节点分享)
-  - 🇯🇵 免费-日本6-Ver.7
-  - 🇸🇬6
-  - 🇳🇱 荷兰
   - 🇱🇻_LV_拉脱维亚
+  - 美国3
+  - 美国5
+  - 🇯🇵 免费-日本4-Ver.7
+  - 🇯🇵2
+  - 🇯🇵 免费-日本6-Ver.7
+  - 🇯🇵4
   - 日本2
-  - 🇬🇧 英国
-  - DE_b5ce7_0008
-  - 香港2
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
