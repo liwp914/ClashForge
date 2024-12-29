@@ -231,16 +231,6 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 2afbc97400ca71c8f3306f9843a6e1c2
   udp: true
-- name: 🇯🇵 免费-日本4-Ver.7
-  server: 4sq5c-g03.jp04-3771-vm0.entry.fr0307a.art
-  port: 446
-  type: vmess
-  uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f
-  alterId: 99999
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  udp: true
 - name: 🇯🇵 免费-日本6-Ver.7
   server: lstqj-g03.jp06-7c5a-vm0.entry.fr0307a.art
   port: 28785
@@ -280,27 +270,26 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇮🇸 time.is
-  - brazil.com
   - 🇭🇰 icook.hk
   - fbi.gov
-  - www.gov.se
   - www.gov.ua
-  - www.wto.org
-  - 🇷🇺 russia.com
-  - 🇨🇳 visa.cn
+  - www.gov.se
   - www.gco.gov.qa
-  - 🇩🇪 DE_324
+  - brazil.com
+  - 🇮🇸 time.is
+  - 🇷🇺 russia.com
+  - www.wto.org
+  - 🇨🇳 visa.cn
   - DE德国(mibei77.com 米贝节点分享)
+  - 🇩🇪 DE_324
   - 🇬🇧 英国
+  - 🇱🇻_LV_拉脱维亚
   - 🇳🇱 荷兰
   - DE_b5ce7_0008
-  - 🇱🇻_LV_拉脱维亚
-  - 🇯🇵 免费-日本4-Ver.7
-  - 美国5
   - 美国3
-  - 🇯🇵 免费-日本6-Ver.7
+  - 美国5
   - 🇯🇵2
+  - 🇯🇵 免费-日本6-Ver.7
   - 日本2
   url: http://www.pinterest.com
   interval: 300
@@ -309,54 +298,52 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇮🇸 time.is
-  - brazil.com
   - 🇭🇰 icook.hk
   - fbi.gov
-  - www.gov.se
   - www.gov.ua
-  - www.wto.org
-  - 🇷🇺 russia.com
-  - 🇨🇳 visa.cn
+  - www.gov.se
   - www.gco.gov.qa
-  - 🇩🇪 DE_324
+  - brazil.com
+  - 🇮🇸 time.is
+  - 🇷🇺 russia.com
+  - www.wto.org
+  - 🇨🇳 visa.cn
   - DE德国(mibei77.com 米贝节点分享)
+  - 🇩🇪 DE_324
   - 🇬🇧 英国
+  - 🇱🇻_LV_拉脱维亚
   - 🇳🇱 荷兰
   - DE_b5ce7_0008
-  - 🇱🇻_LV_拉脱维亚
-  - 🇯🇵 免费-日本4-Ver.7
-  - 美国5
   - 美国3
-  - 🇯🇵 免费-日本6-Ver.7
+  - 美国5
   - 🇯🇵2
+  - 🇯🇵 免费-日本6-Ver.7
   - 日本2
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇮🇸 time.is
-  - brazil.com
   - 🇭🇰 icook.hk
   - fbi.gov
-  - www.gov.se
   - www.gov.ua
-  - www.wto.org
-  - 🇷🇺 russia.com
-  - 🇨🇳 visa.cn
+  - www.gov.se
   - www.gco.gov.qa
-  - 🇩🇪 DE_324
+  - brazil.com
+  - 🇮🇸 time.is
+  - 🇷🇺 russia.com
+  - www.wto.org
+  - 🇨🇳 visa.cn
   - DE德国(mibei77.com 米贝节点分享)
+  - 🇩🇪 DE_324
   - 🇬🇧 英国
+  - 🇱🇻_LV_拉脱维亚
   - 🇳🇱 荷兰
   - DE_b5ce7_0008
-  - 🇱🇻_LV_拉脱维亚
-  - 🇯🇵 免费-日本4-Ver.7
-  - 美国5
   - 美国3
-  - 🇯🇵 免费-日本6-Ver.7
+  - 美国5
   - 🇯🇵2
+  - 🇯🇵 免费-日本6-Ver.7
   - 日本2
 rules:
 - DOMAIN,app.adjust.com,DIRECT
