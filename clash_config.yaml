@@ -172,13 +172,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sub.fish2018.us.kg
-- name: 🇱🇻_LV_拉脱维亚
-  port: 990
-  server: 46.183.217.232
-  type: ss
-  udp: true
-  password: f8f7aCzcPKbsF8p3
-  cipher: chacha20-ietf-poly1305
 - cipher: chacha20-ietf-poly1305
   name: DE德国(mibei77.com 米贝节点分享)
   password: 2EtPqn6HYjUNcHohLfUpFQwnfjCCQ5mh1mJdEMCBucuWZ9P1udkRKHnVxuo55k1KXz2Fo6jrgt18W66opty1e4bm1jzfCfBb
@@ -270,27 +263,26 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇭🇰 icook.hk
-  - fbi.gov
+  - 🇷🇺 russia.com
   - www.gov.se
+  - 🇭🇰 icook.hk
+  - brazil.com
+  - www.gov.ua
   - 🇮🇸 time.is
+  - www.wto.org
+  - www.gco.gov.qa
+  - fbi.gov
+  - 🇨🇳 visa.cn
+  - 🇩🇪 DE_324
+  - DE德国(mibei77.com 米贝节点分享)
+  - 🇬🇧 英国
+  - 🇳🇱 荷兰
+  - DE_b5ce7_0008
   - 美国5
   - 美国3
-  - www.gov.ua
-  - 🇷🇺 russia.com
-  - www.gco.gov.qa
-  - brazil.com
-  - 🇨🇳 visa.cn
-  - www.wto.org
   - 🇯🇵2
-  - 🇩🇪 DE_324
   - 🇯🇵 免费-日本6-Ver.7
-  - DE德国(mibei77.com 米贝节点分享)
   - 日本2
-  - 🇬🇧 英国
-  - 🇱🇻_LV_拉脱维亚
-  - DE_b5ce7_0008
-  - 🇳🇱 荷兰
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -298,53 +290,51 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇭🇰 icook.hk
-  - fbi.gov
+  - 🇷🇺 russia.com
   - www.gov.se
+  - 🇭🇰 icook.hk
+  - brazil.com
+  - www.gov.ua
   - 🇮🇸 time.is
+  - www.wto.org
+  - www.gco.gov.qa
+  - fbi.gov
+  - 🇨🇳 visa.cn
+  - 🇩🇪 DE_324
+  - DE德国(mibei77.com 米贝节点分享)
+  - 🇬🇧 英国
+  - 🇳🇱 荷兰
+  - DE_b5ce7_0008
   - 美国5
   - 美国3
-  - www.gov.ua
-  - 🇷🇺 russia.com
-  - www.gco.gov.qa
-  - brazil.com
-  - 🇨🇳 visa.cn
-  - www.wto.org
   - 🇯🇵2
-  - 🇩🇪 DE_324
   - 🇯🇵 免费-日本6-Ver.7
-  - DE德国(mibei77.com 米贝节点分享)
   - 日本2
-  - 🇬🇧 英国
-  - 🇱🇻_LV_拉脱维亚
-  - DE_b5ce7_0008
-  - 🇳🇱 荷兰
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇭🇰 icook.hk
-  - fbi.gov
+  - 🇷🇺 russia.com
   - www.gov.se
+  - 🇭🇰 icook.hk
+  - brazil.com
+  - www.gov.ua
   - 🇮🇸 time.is
+  - www.wto.org
+  - www.gco.gov.qa
+  - fbi.gov
+  - 🇨🇳 visa.cn
+  - 🇩🇪 DE_324
+  - DE德国(mibei77.com 米贝节点分享)
+  - 🇬🇧 英国
+  - 🇳🇱 荷兰
+  - DE_b5ce7_0008
   - 美国5
   - 美国3
-  - www.gov.ua
-  - 🇷🇺 russia.com
-  - www.gco.gov.qa
-  - brazil.com
-  - 🇨🇳 visa.cn
-  - www.wto.org
   - 🇯🇵2
-  - 🇩🇪 DE_324
   - 🇯🇵 免费-日本6-Ver.7
-  - DE德国(mibei77.com 米贝节点分享)
   - 日本2
-  - 🇬🇧 英国
-  - 🇱🇻_LV_拉脱维亚
-  - DE_b5ce7_0008
-  - 🇳🇱 荷兰
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
