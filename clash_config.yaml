@@ -270,27 +270,27 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇨🇳 visa.cn
-  - fbi.gov
   - 🇷🇺 russia.com
+  - 🇮🇸 time.is
+  - www.gov.se
+  - www.wto.org
+  - brazil.com
   - 🇭🇰 icook.hk
   - www.gco.gov.qa
-  - www.gov.se
-  - brazil.com
-  - 美国5
-  - 美国3
-  - 🇮🇸 time.is
-  - www.wto.org
   - www.gov.ua
-  - 🇯🇵2
-  - 🇯🇵 免费-日本6-Ver.7
+  - fbi.gov
+  - 🇨🇳 visa.cn
   - DE德国(mibei77.com 米贝节点分享)
   - 🇩🇪 DE_324
-  - 日本2
   - 🇬🇧 英国
-  - 🇱🇻_LV_拉脱维亚
-  - DE_b5ce7_0008
   - 🇳🇱 荷兰
+  - DE_b5ce7_0008
+  - 🇱🇻_LV_拉脱维亚
+  - 美国5
+  - 美国3
+  - 🇯🇵2
+  - 🇯🇵 免费-日本6-Ver.7
+  - 日本2
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -298,53 +298,53 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇨🇳 visa.cn
-  - fbi.gov
   - 🇷🇺 russia.com
+  - 🇮🇸 time.is
+  - www.gov.se
+  - www.wto.org
+  - brazil.com
   - 🇭🇰 icook.hk
   - www.gco.gov.qa
-  - www.gov.se
-  - brazil.com
-  - 美国5
-  - 美国3
-  - 🇮🇸 time.is
-  - www.wto.org
   - www.gov.ua
-  - 🇯🇵2
-  - 🇯🇵 免费-日本6-Ver.7
+  - fbi.gov
+  - 🇨🇳 visa.cn
   - DE德国(mibei77.com 米贝节点分享)
   - 🇩🇪 DE_324
-  - 日本2
   - 🇬🇧 英国
-  - 🇱🇻_LV_拉脱维亚
-  - DE_b5ce7_0008
   - 🇳🇱 荷兰
+  - DE_b5ce7_0008
+  - 🇱🇻_LV_拉脱维亚
+  - 美国5
+  - 美国3
+  - 🇯🇵2
+  - 🇯🇵 免费-日本6-Ver.7
+  - 日本2
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇨🇳 visa.cn
-  - fbi.gov
   - 🇷🇺 russia.com
+  - 🇮🇸 time.is
+  - www.gov.se
+  - www.wto.org
+  - brazil.com
   - 🇭🇰 icook.hk
   - www.gco.gov.qa
-  - www.gov.se
-  - brazil.com
-  - 美国5
-  - 美国3
-  - 🇮🇸 time.is
-  - www.wto.org
   - www.gov.ua
-  - 🇯🇵2
-  - 🇯🇵 免费-日本6-Ver.7
+  - fbi.gov
+  - 🇨🇳 visa.cn
   - DE德国(mibei77.com 米贝节点分享)
   - 🇩🇪 DE_324
-  - 日本2
   - 🇬🇧 英国
-  - 🇱🇻_LV_拉脱维亚
-  - DE_b5ce7_0008
   - 🇳🇱 荷兰
+  - DE_b5ce7_0008
+  - 🇱🇻_LV_拉脱维亚
+  - 美国5
+  - 美国3
+  - 🇯🇵2
+  - 🇯🇵 免费-日本6-Ver.7
+  - 日本2
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
