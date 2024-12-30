@@ -270,27 +270,27 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - www.gco.gov.qa
-  - 🇮🇸 time.is
-  - www.gov.ua
-  - www.gov.se
   - 🇭🇰 icook.hk
-  - www.wto.org
-  - brazil.com
   - fbi.gov
-  - 🇷🇺 russia.com
-  - 🇨🇳 visa.cn
-  - 🇩🇪 DE_324
-  - DE德国(mibei77.com 米贝节点分享)
-  - 🇬🇧 英国
-  - 🇳🇱 荷兰
-  - 🇱🇻_LV_拉脱维亚
-  - DE_b5ce7_0008
+  - www.gov.se
+  - 🇮🇸 time.is
   - 美国5
   - 美国3
+  - www.gov.ua
+  - 🇷🇺 russia.com
+  - www.gco.gov.qa
+  - brazil.com
+  - 🇨🇳 visa.cn
+  - www.wto.org
   - 🇯🇵2
+  - 🇩🇪 DE_324
   - 🇯🇵 免费-日本6-Ver.7
+  - DE德国(mibei77.com 米贝节点分享)
   - 日本2
+  - 🇬🇧 英国
+  - 🇱🇻_LV_拉脱维亚
+  - DE_b5ce7_0008
+  - 🇳🇱 荷兰
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -298,53 +298,53 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - www.gco.gov.qa
-  - 🇮🇸 time.is
-  - www.gov.ua
-  - www.gov.se
   - 🇭🇰 icook.hk
-  - www.wto.org
-  - brazil.com
   - fbi.gov
-  - 🇷🇺 russia.com
-  - 🇨🇳 visa.cn
-  - 🇩🇪 DE_324
-  - DE德国(mibei77.com 米贝节点分享)
-  - 🇬🇧 英国
-  - 🇳🇱 荷兰
-  - 🇱🇻_LV_拉脱维亚
-  - DE_b5ce7_0008
+  - www.gov.se
+  - 🇮🇸 time.is
   - 美国5
   - 美国3
+  - www.gov.ua
+  - 🇷🇺 russia.com
+  - www.gco.gov.qa
+  - brazil.com
+  - 🇨🇳 visa.cn
+  - www.wto.org
   - 🇯🇵2
+  - 🇩🇪 DE_324
   - 🇯🇵 免费-日本6-Ver.7
+  - DE德国(mibei77.com 米贝节点分享)
   - 日本2
+  - 🇬🇧 英国
+  - 🇱🇻_LV_拉脱维亚
+  - DE_b5ce7_0008
+  - 🇳🇱 荷兰
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - www.gco.gov.qa
-  - 🇮🇸 time.is
-  - www.gov.ua
-  - www.gov.se
   - 🇭🇰 icook.hk
-  - www.wto.org
-  - brazil.com
   - fbi.gov
-  - 🇷🇺 russia.com
-  - 🇨🇳 visa.cn
-  - 🇩🇪 DE_324
-  - DE德国(mibei77.com 米贝节点分享)
-  - 🇬🇧 英国
-  - 🇳🇱 荷兰
-  - 🇱🇻_LV_拉脱维亚
-  - DE_b5ce7_0008
+  - www.gov.se
+  - 🇮🇸 time.is
   - 美国5
   - 美国3
+  - www.gov.ua
+  - 🇷🇺 russia.com
+  - www.gco.gov.qa
+  - brazil.com
+  - 🇨🇳 visa.cn
+  - www.wto.org
   - 🇯🇵2
+  - 🇩🇪 DE_324
   - 🇯🇵 免费-日本6-Ver.7
+  - DE德国(mibei77.com 米贝节点分享)
   - 日本2
+  - 🇬🇧 英国
+  - 🇱🇻_LV_拉脱维亚
+  - DE_b5ce7_0008
+  - 🇳🇱 荷兰
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
