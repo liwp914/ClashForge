@@ -250,22 +250,22 @@ proxy-groups:
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
   - fbi.gov
-  - 🇷🇺 russia.com
-  - brazil.com
-  - 🇭🇰 icook.hk
   - www.gov.se
-  - www.wto.org
-  - 🇨🇳 visa.cn
-  - www.gco.gov.qa
-  - 🇮🇸 time.is
+  - brazil.com
   - www.gov.ua
-  - 美国3
+  - 🇭🇰 icook.hk
+  - www.wto.org
+  - 🇮🇸 time.is
+  - 🇷🇺 russia.com
+  - www.gco.gov.qa
+  - 🇨🇳 visa.cn
   - 美国5
-  - 🇬🇧 英国
+  - 美国3
   - 🇯🇵2
-  - 🇳🇱 荷兰
-  - DE_b5ce7_0008
   - 🇯🇵 免费-日本6-Ver.7
+  - 🇬🇧 英国
+  - DE_b5ce7_0008
+  - 🇳🇱 荷兰
   - 日本2
   url: http://www.pinterest.com
   interval: 300
@@ -275,22 +275,22 @@ proxy-groups:
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
   - fbi.gov
-  - 🇷🇺 russia.com
-  - brazil.com
-  - 🇭🇰 icook.hk
   - www.gov.se
-  - www.wto.org
-  - 🇨🇳 visa.cn
-  - www.gco.gov.qa
-  - 🇮🇸 time.is
+  - brazil.com
   - www.gov.ua
-  - 美国3
+  - 🇭🇰 icook.hk
+  - www.wto.org
+  - 🇮🇸 time.is
+  - 🇷🇺 russia.com
+  - www.gco.gov.qa
+  - 🇨🇳 visa.cn
   - 美国5
-  - 🇬🇧 英国
+  - 美国3
   - 🇯🇵2
-  - 🇳🇱 荷兰
-  - DE_b5ce7_0008
   - 🇯🇵 免费-日本6-Ver.7
+  - 🇬🇧 英国
+  - DE_b5ce7_0008
+  - 🇳🇱 荷兰
   - 日本2
   url: http://www.pinterest.com
   interval: 300
@@ -298,22 +298,22 @@ proxy-groups:
   type: select
   proxies:
   - fbi.gov
-  - 🇷🇺 russia.com
-  - brazil.com
-  - 🇭🇰 icook.hk
   - www.gov.se
-  - www.wto.org
-  - 🇨🇳 visa.cn
-  - www.gco.gov.qa
-  - 🇮🇸 time.is
+  - brazil.com
   - www.gov.ua
-  - 美国3
+  - 🇭🇰 icook.hk
+  - www.wto.org
+  - 🇮🇸 time.is
+  - 🇷🇺 russia.com
+  - www.gco.gov.qa
+  - 🇨🇳 visa.cn
   - 美国5
-  - 🇬🇧 英国
+  - 美国3
   - 🇯🇵2
-  - 🇳🇱 荷兰
-  - DE_b5ce7_0008
   - 🇯🇵 免费-日本6-Ver.7
+  - 🇬🇧 英国
+  - DE_b5ce7_0008
+  - 🇳🇱 荷兰
   - 日本2
 rules:
 - DOMAIN,app.adjust.com,DIRECT
