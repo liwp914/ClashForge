@@ -210,13 +210,6 @@ proxies:
   skip-cert-verify: false
   username: mrwdfNTD8M79LCukCieldrqZWqs=
   password: exaxgqkKkd0TAMrCxeonWg==
-- name: 🇯🇵2
-  server: japan-2.keenvpn.me
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 2afbc97400ca71c8f3306f9843a6e1c2
-  udp: true
 - name: 🇯🇵 免费-日本6-Ver.7
   server: lstqj-g03.jp06-7c5a-vm0.entry.fr0307a.art
   port: 28785
@@ -249,24 +242,23 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇮🇸 time.is
-  - www.wto.org
+  - www.gov.ua
   - www.gov.se
+  - 🇷🇺 russia.com
+  - www.wto.org
+  - 🇮🇸 time.is
+  - brazil.com
+  - fbi.gov
   - 🇭🇰 icook.hk
   - www.gco.gov.qa
-  - fbi.gov
-  - 美国3
-  - 美国5
-  - 🇷🇺 russia.com
-  - www.gov.ua
   - 🇨🇳 visa.cn
-  - brazil.com
-  - 🇯🇵2
-  - 🇯🇵 免费-日本6-Ver.7
   - 🇬🇧 英国
-  - 日本2
-  - DE_b5ce7_0008
   - 🇳🇱 荷兰
+  - DE_b5ce7_0008
+  - 美国5
+  - 美国3
+  - 🇯🇵 免费-日本6-Ver.7
+  - 日本2
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -274,47 +266,45 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇮🇸 time.is
-  - www.wto.org
+  - www.gov.ua
   - www.gov.se
+  - 🇷🇺 russia.com
+  - www.wto.org
+  - 🇮🇸 time.is
+  - brazil.com
+  - fbi.gov
   - 🇭🇰 icook.hk
   - www.gco.gov.qa
-  - fbi.gov
-  - 美国3
-  - 美国5
-  - 🇷🇺 russia.com
-  - www.gov.ua
   - 🇨🇳 visa.cn
-  - brazil.com
-  - 🇯🇵2
-  - 🇯🇵 免费-日本6-Ver.7
   - 🇬🇧 英国
-  - 日本2
-  - DE_b5ce7_0008
   - 🇳🇱 荷兰
+  - DE_b5ce7_0008
+  - 美国5
+  - 美国3
+  - 🇯🇵 免费-日本6-Ver.7
+  - 日本2
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇮🇸 time.is
-  - www.wto.org
+  - www.gov.ua
   - www.gov.se
+  - 🇷🇺 russia.com
+  - www.wto.org
+  - 🇮🇸 time.is
+  - brazil.com
+  - fbi.gov
   - 🇭🇰 icook.hk
   - www.gco.gov.qa
-  - fbi.gov
-  - 美国3
-  - 美国5
-  - 🇷🇺 russia.com
-  - www.gov.ua
   - 🇨🇳 visa.cn
-  - brazil.com
-  - 🇯🇵2
-  - 🇯🇵 免费-日本6-Ver.7
   - 🇬🇧 英国
-  - 日本2
-  - DE_b5ce7_0008
   - 🇳🇱 荷兰
+  - DE_b5ce7_0008
+  - 美国5
+  - 美国3
+  - 🇯🇵 免费-日本6-Ver.7
+  - 日本2
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
