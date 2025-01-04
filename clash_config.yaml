@@ -210,16 +210,6 @@ proxies:
   skip-cert-verify: false
   username: mrwdfNTD8M79LCukCieldrqZWqs=
   password: exaxgqkKkd0TAMrCxeonWg==
-- name: 🇯🇵 免费-日本6-Ver.7
-  server: lstqj-g03.jp06-7c5a-vm0.entry.fr0307a.art
-  port: 28785
-  type: vmess
-  uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f
-  alterId: 99999
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  udp: true
 - name: DE_b5ce7_0008
   server: 89.187.169.71
   port: 8443
@@ -242,22 +232,21 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
+  - 🇷🇺 russia.com
+  - 🇮🇸 time.is
   - www.gov.se
   - www.gov.ua
-  - www.gco.gov.qa
-  - 🇷🇺 russia.com
-  - 🇭🇰 icook.hk
-  - fbi.gov
   - brazil.com
-  - 🇮🇸 time.is
   - www.wto.org
+  - www.gco.gov.qa
+  - fbi.gov
+  - 🇭🇰 icook.hk
   - 🇨🇳 visa.cn
-  - 🇬🇧 英国
   - 🇳🇱 荷兰
   - DE_b5ce7_0008
   - 美国3
   - 美国5
-  - 🇯🇵 免费-日本6-Ver.7
+  - 🇬🇧 英国
   - 日本2
   url: http://www.pinterest.com
   interval: 300
@@ -266,44 +255,42 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
+  - 🇷🇺 russia.com
+  - 🇮🇸 time.is
   - www.gov.se
   - www.gov.ua
-  - www.gco.gov.qa
-  - 🇷🇺 russia.com
-  - 🇭🇰 icook.hk
-  - fbi.gov
   - brazil.com
-  - 🇮🇸 time.is
   - www.wto.org
+  - www.gco.gov.qa
+  - fbi.gov
+  - 🇭🇰 icook.hk
   - 🇨🇳 visa.cn
-  - 🇬🇧 英国
   - 🇳🇱 荷兰
   - DE_b5ce7_0008
   - 美国3
   - 美国5
-  - 🇯🇵 免费-日本6-Ver.7
+  - 🇬🇧 英国
   - 日本2
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
+  - 🇷🇺 russia.com
+  - 🇮🇸 time.is
   - www.gov.se
   - www.gov.ua
-  - www.gco.gov.qa
-  - 🇷🇺 russia.com
-  - 🇭🇰 icook.hk
-  - fbi.gov
   - brazil.com
-  - 🇮🇸 time.is
   - www.wto.org
+  - www.gco.gov.qa
+  - fbi.gov
+  - 🇭🇰 icook.hk
   - 🇨🇳 visa.cn
-  - 🇬🇧 英国
   - 🇳🇱 荷兰
   - DE_b5ce7_0008
   - 美国3
   - 美国5
-  - 🇯🇵 免费-日本6-Ver.7
+  - 🇬🇧 英国
   - 日本2
 rules:
 - DOMAIN,app.adjust.com,DIRECT
