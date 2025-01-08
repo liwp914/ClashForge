@@ -225,20 +225,20 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - fbi.gov
-  - www.gov.se
-  - 🇷🇺 russia.com
-  - www.gov.ua
-  - www.wto.org
-  - 🇭🇰 icook.hk
-  - 🇮🇸 time.is
   - brazil.com
+  - www.gov.ua
+  - 🇭🇰 icook.hk
+  - www.wto.org
   - www.gco.gov.qa
+  - fbi.gov
+  - 🇮🇸 time.is
+  - www.gov.se
   - 🇨🇳 visa.cn
-  - 🇳🇱 荷兰
+  - 🇷🇺 russia.com
   - DE_b5ce7_0008
-  - 美国3
+  - 🇳🇱 荷兰
   - 美国5
+  - 美国3
   - 日本2
   url: http://www.pinterest.com
   interval: 300
@@ -247,40 +247,40 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - fbi.gov
-  - www.gov.se
-  - 🇷🇺 russia.com
-  - www.gov.ua
-  - www.wto.org
-  - 🇭🇰 icook.hk
-  - 🇮🇸 time.is
   - brazil.com
+  - www.gov.ua
+  - 🇭🇰 icook.hk
+  - www.wto.org
   - www.gco.gov.qa
+  - fbi.gov
+  - 🇮🇸 time.is
+  - www.gov.se
   - 🇨🇳 visa.cn
-  - 🇳🇱 荷兰
+  - 🇷🇺 russia.com
   - DE_b5ce7_0008
-  - 美国3
+  - 🇳🇱 荷兰
   - 美国5
+  - 美国3
   - 日本2
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - fbi.gov
-  - www.gov.se
-  - 🇷🇺 russia.com
-  - www.gov.ua
-  - www.wto.org
-  - 🇭🇰 icook.hk
-  - 🇮🇸 time.is
   - brazil.com
+  - www.gov.ua
+  - 🇭🇰 icook.hk
+  - www.wto.org
   - www.gco.gov.qa
+  - fbi.gov
+  - 🇮🇸 time.is
+  - www.gov.se
   - 🇨🇳 visa.cn
-  - 🇳🇱 荷兰
+  - 🇷🇺 russia.com
   - DE_b5ce7_0008
-  - 美国3
+  - 🇳🇱 荷兰
   - 美国5
+  - 美国3
   - 日本2
 rules:
 - DOMAIN,app.adjust.com,DIRECT
