@@ -211,17 +211,17 @@ proxy-groups:
   proxies:
   - 🇭🇰 icook.hk
   - www.wto.org
-  - www.gov.ua
-  - fbi.gov
-  - brazil.com
   - www.gov.se
   - 🇷🇺 russia.com
+  - brazil.com
+  - www.gov.ua
   - 🇮🇸 time.is
+  - fbi.gov
   - www.gco.gov.qa
   - 🇨🇳 visa.cn
-  - 日本2
   - 🇳🇱 荷兰
   - DE_b5ce7_0008
+  - 日本2
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -231,17 +231,17 @@ proxy-groups:
   proxies:
   - 🇭🇰 icook.hk
   - www.wto.org
-  - www.gov.ua
-  - fbi.gov
-  - brazil.com
   - www.gov.se
   - 🇷🇺 russia.com
+  - brazil.com
+  - www.gov.ua
   - 🇮🇸 time.is
+  - fbi.gov
   - www.gco.gov.qa
   - 🇨🇳 visa.cn
-  - 日本2
   - 🇳🇱 荷兰
   - DE_b5ce7_0008
+  - 日本2
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
@@ -249,17 +249,17 @@ proxy-groups:
   proxies:
   - 🇭🇰 icook.hk
   - www.wto.org
-  - www.gov.ua
-  - fbi.gov
-  - brazil.com
   - www.gov.se
   - 🇷🇺 russia.com
+  - brazil.com
+  - www.gov.ua
   - 🇮🇸 time.is
+  - fbi.gov
   - www.gco.gov.qa
   - 🇨🇳 visa.cn
-  - 日本2
   - 🇳🇱 荷兰
   - DE_b5ce7_0008
+  - 日本2
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
