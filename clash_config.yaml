@@ -204,14 +204,14 @@ proxy-groups:
   proxies:
   - www.gov.ua
   - www.wto.org
-  - 🇨🇳 visa.cn
   - 🇮🇸 time.is
-  - fbi.gov
-  - 🇭🇰 icook.hk
   - www.gov.se
+  - 🇭🇰 icook.hk
+  - 🇷🇺 russia.com
+  - fbi.gov
   - brazil.com
   - www.gco.gov.qa
-  - 🇷🇺 russia.com
+  - 🇨🇳 visa.cn
   - DE_b5ce7_0008
   - 日本2
   url: http://www.pinterest.com
@@ -223,14 +223,14 @@ proxy-groups:
   proxies:
   - www.gov.ua
   - www.wto.org
-  - 🇨🇳 visa.cn
   - 🇮🇸 time.is
-  - fbi.gov
-  - 🇭🇰 icook.hk
   - www.gov.se
+  - 🇭🇰 icook.hk
+  - 🇷🇺 russia.com
+  - fbi.gov
   - brazil.com
   - www.gco.gov.qa
-  - 🇷🇺 russia.com
+  - 🇨🇳 visa.cn
   - DE_b5ce7_0008
   - 日本2
   url: http://www.pinterest.com
@@ -240,14 +240,14 @@ proxy-groups:
   proxies:
   - www.gov.ua
   - www.wto.org
-  - 🇨🇳 visa.cn
   - 🇮🇸 time.is
-  - fbi.gov
-  - 🇭🇰 icook.hk
   - www.gov.se
+  - 🇭🇰 icook.hk
+  - 🇷🇺 russia.com
+  - fbi.gov
   - brazil.com
   - www.gco.gov.qa
-  - 🇷🇺 russia.com
+  - 🇨🇳 visa.cn
   - DE_b5ce7_0008
   - 日本2
 rules:
