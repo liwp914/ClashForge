@@ -205,15 +205,15 @@ proxy-groups:
   - www.gov.ua
   - 🇮🇸 time.is
   - brazil.com
-  - www.gov.se
-  - www.gco.gov.qa
   - 🇭🇰 icook.hk
-  - fbi.gov
-  - 🇷🇺 russia.com
-  - www.wto.org
   - 🇨🇳 visa.cn
-  - DE_b5ce7_0008
+  - www.wto.org
+  - www.gov.se
+  - 🇷🇺 russia.com
+  - www.gco.gov.qa
+  - fbi.gov
   - 日本2
+  - DE_b5ce7_0008
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -224,15 +224,15 @@ proxy-groups:
   - www.gov.ua
   - 🇮🇸 time.is
   - brazil.com
-  - www.gov.se
-  - www.gco.gov.qa
   - 🇭🇰 icook.hk
-  - fbi.gov
-  - 🇷🇺 russia.com
-  - www.wto.org
   - 🇨🇳 visa.cn
-  - DE_b5ce7_0008
+  - www.wto.org
+  - www.gov.se
+  - 🇷🇺 russia.com
+  - www.gco.gov.qa
+  - fbi.gov
   - 日本2
+  - DE_b5ce7_0008
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
@@ -241,15 +241,15 @@ proxy-groups:
   - www.gov.ua
   - 🇮🇸 time.is
   - brazil.com
-  - www.gov.se
-  - www.gco.gov.qa
   - 🇭🇰 icook.hk
-  - fbi.gov
-  - 🇷🇺 russia.com
-  - www.wto.org
   - 🇨🇳 visa.cn
-  - DE_b5ce7_0008
+  - www.wto.org
+  - www.gov.se
+  - 🇷🇺 russia.com
+  - www.gco.gov.qa
+  - fbi.gov
   - 日本2
+  - DE_b5ce7_0008
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
