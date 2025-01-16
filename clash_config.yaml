@@ -202,15 +202,15 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - fbi.gov
-  - www.gco.gov.qa
-  - www.gov.se
-  - brazil.com
-  - www.gov.ua
-  - 🇮🇸 time.is
   - 🇭🇰 icook.hk
-  - www.wto.org
+  - 🇮🇸 time.is
   - 🇷🇺 russia.com
+  - brazil.com
+  - www.wto.org
+  - www.gov.se
+  - www.gco.gov.qa
+  - fbi.gov
+  - www.gov.ua
   - 🇨🇳 visa.cn
   - DE_b5ce7_0008
   - 日本2
@@ -221,15 +221,15 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - fbi.gov
-  - www.gco.gov.qa
-  - www.gov.se
-  - brazil.com
-  - www.gov.ua
-  - 🇮🇸 time.is
   - 🇭🇰 icook.hk
-  - www.wto.org
+  - 🇮🇸 time.is
   - 🇷🇺 russia.com
+  - brazil.com
+  - www.wto.org
+  - www.gov.se
+  - www.gco.gov.qa
+  - fbi.gov
+  - www.gov.ua
   - 🇨🇳 visa.cn
   - DE_b5ce7_0008
   - 日本2
@@ -238,15 +238,15 @@ proxy-groups:
 - name: 手动选择
   type: select
   proxies:
-  - fbi.gov
-  - www.gco.gov.qa
-  - www.gov.se
-  - brazil.com
-  - www.gov.ua
-  - 🇮🇸 time.is
   - 🇭🇰 icook.hk
-  - www.wto.org
+  - 🇮🇸 time.is
   - 🇷🇺 russia.com
+  - brazil.com
+  - www.wto.org
+  - www.gov.se
+  - www.gco.gov.qa
+  - fbi.gov
+  - www.gov.ua
   - 🇨🇳 visa.cn
   - DE_b5ce7_0008
   - 日本2
