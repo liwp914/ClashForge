@@ -202,18 +202,18 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇮🇸 time.is
   - www.gov.ua
-  - 🇷🇺 russia.com
-  - www.gov.se
-  - fbi.gov
-  - brazil.com
-  - 🇨🇳 visa.cn
   - 🇭🇰 icook.hk
+  - 🇷🇺 russia.com
+  - brazil.com
   - www.gco.gov.qa
+  - fbi.gov
+  - 🇮🇸 time.is
   - www.wto.org
-  - 日本2
+  - www.gov.se
+  - 🇨🇳 visa.cn
   - DE_b5ce7_0008
+  - 日本2
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -221,35 +221,35 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇮🇸 time.is
   - www.gov.ua
-  - 🇷🇺 russia.com
-  - www.gov.se
-  - fbi.gov
-  - brazil.com
-  - 🇨🇳 visa.cn
   - 🇭🇰 icook.hk
+  - 🇷🇺 russia.com
+  - brazil.com
   - www.gco.gov.qa
+  - fbi.gov
+  - 🇮🇸 time.is
   - www.wto.org
-  - 日本2
+  - www.gov.se
+  - 🇨🇳 visa.cn
   - DE_b5ce7_0008
+  - 日本2
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇮🇸 time.is
   - www.gov.ua
-  - 🇷🇺 russia.com
-  - www.gov.se
-  - fbi.gov
-  - brazil.com
-  - 🇨🇳 visa.cn
   - 🇭🇰 icook.hk
+  - 🇷🇺 russia.com
+  - brazil.com
   - www.gco.gov.qa
+  - fbi.gov
+  - 🇮🇸 time.is
   - www.wto.org
-  - 日本2
+  - www.gov.se
+  - 🇨🇳 visa.cn
   - DE_b5ce7_0008
+  - 日本2
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
