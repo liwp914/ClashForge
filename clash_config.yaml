@@ -172,14 +172,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sub.fish2018.us.kg
-- name: 日本2
-  server: jpgmo102-cdn-route.couldflare-cdn.com
-  port: 443
-  type: http
-  tls: true
-  skip-cert-verify: false
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-  password: exaxgqkKkd0TAMrCxeonWg==
 - name: DE_b5ce7_0008
   server: 89.187.169.71
   port: 8443
@@ -202,17 +194,16 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - brazil.com
-  - www.gov.se
-  - www.wto.org
   - 🇭🇰 icook.hk
-  - www.gco.gov.qa
-  - www.gov.ua
-  - 🇨🇳 visa.cn
   - 🇮🇸 time.is
-  - 🇷🇺 russia.com
+  - www.wto.org
   - fbi.gov
-  - 日本2
+  - www.gov.ua
+  - brazil.com
+  - 🇷🇺 russia.com
+  - www.gco.gov.qa
+  - www.gov.se
+  - 🇨🇳 visa.cn
   - DE_b5ce7_0008
   url: http://www.pinterest.com
   interval: 300
@@ -221,34 +212,32 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - brazil.com
-  - www.gov.se
-  - www.wto.org
   - 🇭🇰 icook.hk
-  - www.gco.gov.qa
-  - www.gov.ua
-  - 🇨🇳 visa.cn
   - 🇮🇸 time.is
-  - 🇷🇺 russia.com
+  - www.wto.org
   - fbi.gov
-  - 日本2
+  - www.gov.ua
+  - brazil.com
+  - 🇷🇺 russia.com
+  - www.gco.gov.qa
+  - www.gov.se
+  - 🇨🇳 visa.cn
   - DE_b5ce7_0008
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - brazil.com
-  - www.gov.se
-  - www.wto.org
   - 🇭🇰 icook.hk
-  - www.gco.gov.qa
-  - www.gov.ua
-  - 🇨🇳 visa.cn
   - 🇮🇸 time.is
-  - 🇷🇺 russia.com
+  - www.wto.org
   - fbi.gov
-  - 日本2
+  - www.gov.ua
+  - brazil.com
+  - 🇷🇺 russia.com
+  - www.gco.gov.qa
+  - www.gov.se
+  - 🇨🇳 visa.cn
   - DE_b5ce7_0008
 rules:
 - DOMAIN,app.adjust.com,DIRECT
