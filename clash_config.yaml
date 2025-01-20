@@ -203,15 +203,15 @@ proxy-groups:
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
   - 🇷🇺 russia.com
-  - brazil.com
-  - www.wto.org
-  - www.gov.se
   - www.gco.gov.qa
-  - fbi.gov
-  - 🇮🇸 time.is
   - www.gov.ua
+  - brazil.com
+  - fbi.gov
+  - www.gov.se
   - 🇭🇰 icook.hk
+  - 🇮🇸 time.is
   - 🇨🇳 visa.cn
+  - www.wto.org
   - DE_b5ce7_0008
   - 日本2
   url: http://www.pinterest.com
@@ -222,15 +222,15 @@ proxy-groups:
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
   - 🇷🇺 russia.com
-  - brazil.com
-  - www.wto.org
-  - www.gov.se
   - www.gco.gov.qa
-  - fbi.gov
-  - 🇮🇸 time.is
   - www.gov.ua
+  - brazil.com
+  - fbi.gov
+  - www.gov.se
   - 🇭🇰 icook.hk
+  - 🇮🇸 time.is
   - 🇨🇳 visa.cn
+  - www.wto.org
   - DE_b5ce7_0008
   - 日本2
   url: http://www.pinterest.com
@@ -239,15 +239,15 @@ proxy-groups:
   type: select
   proxies:
   - 🇷🇺 russia.com
-  - brazil.com
-  - www.wto.org
-  - www.gov.se
   - www.gco.gov.qa
-  - fbi.gov
-  - 🇮🇸 time.is
   - www.gov.ua
+  - brazil.com
+  - fbi.gov
+  - www.gov.se
   - 🇭🇰 icook.hk
+  - 🇮🇸 time.is
   - 🇨🇳 visa.cn
+  - www.wto.org
   - DE_b5ce7_0008
   - 日本2
 rules:
