@@ -194,17 +194,17 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇭🇰 icook.hk
-  - www.wto.org
-  - www.gco.gov.qa
-  - fbi.gov
   - 🇮🇸 time.is
   - www.gov.se
+  - 🇨🇳 visa.cn
+  - www.wto.org
+  - fbi.gov
   - brazil.com
   - www.gov.ua
+  - 🇭🇰 icook.hk
+  - www.gco.gov.qa
   - 🇷🇺 russia.com
   - DE_b5ce7_0008
-  - 🇨🇳 visa.cn
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -212,33 +212,33 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇭🇰 icook.hk
-  - www.wto.org
-  - www.gco.gov.qa
-  - fbi.gov
   - 🇮🇸 time.is
   - www.gov.se
+  - 🇨🇳 visa.cn
+  - www.wto.org
+  - fbi.gov
   - brazil.com
   - www.gov.ua
+  - 🇭🇰 icook.hk
+  - www.gco.gov.qa
   - 🇷🇺 russia.com
   - DE_b5ce7_0008
-  - 🇨🇳 visa.cn
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇭🇰 icook.hk
-  - www.wto.org
-  - www.gco.gov.qa
-  - fbi.gov
   - 🇮🇸 time.is
   - www.gov.se
+  - 🇨🇳 visa.cn
+  - www.wto.org
+  - fbi.gov
   - brazil.com
   - www.gov.ua
+  - 🇭🇰 icook.hk
+  - www.gco.gov.qa
   - 🇷🇺 russia.com
   - DE_b5ce7_0008
-  - 🇨🇳 visa.cn
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
