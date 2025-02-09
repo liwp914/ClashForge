@@ -172,16 +172,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sub.fish2018.us.kg
-- name: DE_b5ce7_0008
-  server: 89.187.169.71
-  port: 8443
-  type: vless
-  uuid: 6ff213b8-ccc7-4b5a-b4aa-37f7b792a1f1
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  network: tcp
 proxy-groups:
 - name: 节点选择
   type: select
@@ -194,17 +184,16 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
+  - www.gov.se
   - 🇮🇸 time.is
   - brazil.com
-  - www.gco.gov.qa
-  - 🇷🇺 russia.com
   - www.gov.ua
+  - 🇷🇺 russia.com
+  - www.gco.gov.qa
   - 🇭🇰 icook.hk
-  - www.wto.org
   - fbi.gov
-  - www.gov.se
+  - www.wto.org
   - 🇨🇳 visa.cn
-  - DE_b5ce7_0008
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -212,33 +201,31 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
+  - www.gov.se
   - 🇮🇸 time.is
   - brazil.com
-  - www.gco.gov.qa
-  - 🇷🇺 russia.com
   - www.gov.ua
+  - 🇷🇺 russia.com
+  - www.gco.gov.qa
   - 🇭🇰 icook.hk
-  - www.wto.org
   - fbi.gov
-  - www.gov.se
+  - www.wto.org
   - 🇨🇳 visa.cn
-  - DE_b5ce7_0008
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
+  - www.gov.se
   - 🇮🇸 time.is
   - brazil.com
-  - www.gco.gov.qa
-  - 🇷🇺 russia.com
   - www.gov.ua
+  - 🇷🇺 russia.com
+  - www.gco.gov.qa
   - 🇭🇰 icook.hk
-  - www.wto.org
   - fbi.gov
-  - www.gov.se
+  - www.wto.org
   - 🇨🇳 visa.cn
-  - DE_b5ce7_0008
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
