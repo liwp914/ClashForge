@@ -184,13 +184,13 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - fbi.gov
-  - 🇭🇰 icook.hk
   - 🇮🇸 time.is
+  - fbi.gov
   - brazil.com
+  - 🇭🇰 icook.hk
+  - www.wto.org
   - 🇷🇺 russia.com
   - www.gov.se
-  - www.wto.org
   - www.gov.ua
   - www.gco.gov.qa
   - 🇨🇳 visa.cn
@@ -201,13 +201,13 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - fbi.gov
-  - 🇭🇰 icook.hk
   - 🇮🇸 time.is
+  - fbi.gov
   - brazil.com
+  - 🇭🇰 icook.hk
+  - www.wto.org
   - 🇷🇺 russia.com
   - www.gov.se
-  - www.wto.org
   - www.gov.ua
   - www.gco.gov.qa
   - 🇨🇳 visa.cn
@@ -216,13 +216,13 @@ proxy-groups:
 - name: 手动选择
   type: select
   proxies:
-  - fbi.gov
-  - 🇭🇰 icook.hk
   - 🇮🇸 time.is
+  - fbi.gov
   - brazil.com
+  - 🇭🇰 icook.hk
+  - www.wto.org
   - 🇷🇺 russia.com
   - www.gov.se
-  - www.wto.org
   - www.gov.ua
   - www.gco.gov.qa
   - 🇨🇳 visa.cn
