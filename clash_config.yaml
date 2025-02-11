@@ -185,15 +185,15 @@ proxy-groups:
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
   - brazil.com
-  - fbi.gov
-  - www.gov.ua
-  - 🇭🇰 icook.hk
   - www.gco.gov.qa
-  - 🇮🇸 time.is
+  - 🇭🇰 icook.hk
   - www.wto.org
   - www.gov.se
-  - 🇨🇳 visa.cn
   - 🇷🇺 russia.com
+  - www.gov.ua
+  - 🇨🇳 visa.cn
+  - 🇮🇸 time.is
+  - fbi.gov
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -202,30 +202,30 @@ proxy-groups:
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
   - brazil.com
-  - fbi.gov
-  - www.gov.ua
-  - 🇭🇰 icook.hk
   - www.gco.gov.qa
-  - 🇮🇸 time.is
+  - 🇭🇰 icook.hk
   - www.wto.org
   - www.gov.se
-  - 🇨🇳 visa.cn
   - 🇷🇺 russia.com
+  - www.gov.ua
+  - 🇨🇳 visa.cn
+  - 🇮🇸 time.is
+  - fbi.gov
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
   - brazil.com
-  - fbi.gov
-  - www.gov.ua
-  - 🇭🇰 icook.hk
   - www.gco.gov.qa
-  - 🇮🇸 time.is
+  - 🇭🇰 icook.hk
   - www.wto.org
   - www.gov.se
-  - 🇨🇳 visa.cn
   - 🇷🇺 russia.com
+  - www.gov.ua
+  - 🇨🇳 visa.cn
+  - 🇮🇸 time.is
+  - fbi.gov
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
