@@ -184,16 +184,16 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - www.gov.se
-  - 🇷🇺 russia.com
+  - brazil.com
+  - fbi.gov
+  - www.gov.ua
+  - 🇭🇰 icook.hk
   - www.gco.gov.qa
   - 🇮🇸 time.is
   - www.wto.org
-  - www.gov.ua
+  - www.gov.se
   - 🇨🇳 visa.cn
-  - fbi.gov
-  - brazil.com
-  - 🇭🇰 icook.hk
+  - 🇷🇺 russia.com
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -201,31 +201,31 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - www.gov.se
-  - 🇷🇺 russia.com
+  - brazil.com
+  - fbi.gov
+  - www.gov.ua
+  - 🇭🇰 icook.hk
   - www.gco.gov.qa
   - 🇮🇸 time.is
   - www.wto.org
-  - www.gov.ua
+  - www.gov.se
   - 🇨🇳 visa.cn
-  - fbi.gov
-  - brazil.com
-  - 🇭🇰 icook.hk
+  - 🇷🇺 russia.com
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - www.gov.se
-  - 🇷🇺 russia.com
+  - brazil.com
+  - fbi.gov
+  - www.gov.ua
+  - 🇭🇰 icook.hk
   - www.gco.gov.qa
   - 🇮🇸 time.is
   - www.wto.org
-  - www.gov.ua
+  - www.gov.se
   - 🇨🇳 visa.cn
-  - fbi.gov
-  - brazil.com
-  - 🇭🇰 icook.hk
+  - 🇷🇺 russia.com
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
