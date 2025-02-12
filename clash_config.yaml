@@ -184,15 +184,15 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇭🇰 icook.hk
-  - 🇷🇺 russia.com
-  - www.gov.se
-  - www.gov.ua
-  - brazil.com
-  - 🇮🇸 time.is
-  - fbi.gov
   - 🇨🇳 visa.cn
+  - www.gov.se
+  - 🇮🇸 time.is
+  - 🇭🇰 icook.hk
+  - brazil.com
+  - 🇷🇺 russia.com
+  - fbi.gov
   - www.gco.gov.qa
+  - www.gov.ua
   - www.wto.org
   url: http://www.pinterest.com
   interval: 300
@@ -201,30 +201,30 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇭🇰 icook.hk
-  - 🇷🇺 russia.com
-  - www.gov.se
-  - www.gov.ua
-  - brazil.com
-  - 🇮🇸 time.is
-  - fbi.gov
   - 🇨🇳 visa.cn
+  - www.gov.se
+  - 🇮🇸 time.is
+  - 🇭🇰 icook.hk
+  - brazil.com
+  - 🇷🇺 russia.com
+  - fbi.gov
   - www.gco.gov.qa
+  - www.gov.ua
   - www.wto.org
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇭🇰 icook.hk
-  - 🇷🇺 russia.com
-  - www.gov.se
-  - www.gov.ua
-  - brazil.com
-  - 🇮🇸 time.is
-  - fbi.gov
   - 🇨🇳 visa.cn
+  - www.gov.se
+  - 🇮🇸 time.is
+  - 🇭🇰 icook.hk
+  - brazil.com
+  - 🇷🇺 russia.com
+  - fbi.gov
   - www.gco.gov.qa
+  - www.gov.ua
   - www.wto.org
 rules:
 - DOMAIN,app.adjust.com,DIRECT
