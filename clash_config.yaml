@@ -186,13 +186,13 @@ proxy-groups:
   proxies:
   - www.gov.ua
   - www.wto.org
+  - brazil.com
   - 🇮🇸 time.is
   - fbi.gov
-  - www.gco.gov.qa
-  - 🇭🇰 icook.hk
   - 🇷🇺 russia.com
+  - 🇭🇰 icook.hk
+  - www.gco.gov.qa
   - www.gov.se
-  - brazil.com
   - 🇨🇳 visa.cn
   url: http://www.pinterest.com
   interval: 300
@@ -203,13 +203,13 @@ proxy-groups:
   proxies:
   - www.gov.ua
   - www.wto.org
+  - brazil.com
   - 🇮🇸 time.is
   - fbi.gov
-  - www.gco.gov.qa
-  - 🇭🇰 icook.hk
   - 🇷🇺 russia.com
+  - 🇭🇰 icook.hk
+  - www.gco.gov.qa
   - www.gov.se
-  - brazil.com
   - 🇨🇳 visa.cn
   url: http://www.pinterest.com
   interval: 300
@@ -218,13 +218,13 @@ proxy-groups:
   proxies:
   - www.gov.ua
   - www.wto.org
+  - brazil.com
   - 🇮🇸 time.is
   - fbi.gov
-  - www.gco.gov.qa
-  - 🇭🇰 icook.hk
   - 🇷🇺 russia.com
+  - 🇭🇰 icook.hk
+  - www.gco.gov.qa
   - www.gov.se
-  - brazil.com
   - 🇨🇳 visa.cn
 rules:
 - DOMAIN,app.adjust.com,DIRECT
