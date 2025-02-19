@@ -60,48 +60,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sub.fish2018.us.kg
-- name: www.gov.ua
-  server: www.gov.ua
-  port: 2096
-  type: vless
-  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sub.fish2018.us.kg
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sub.fish2018.us.kg
-- name: www.gco.gov.qa
-  server: www.gco.gov.qa
-  port: 8443
-  type: vless
-  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sub.fish2018.us.kg
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sub.fish2018.us.kg
-- name: www.gov.se
-  server: www.gov.se
-  port: 443
-  type: vless
-  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  servername: sub.fish2018.us.kg
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sub.fish2018.us.kg
 - name: 🇮🇸 time.is
   server: time.is
   port: 443
@@ -170,15 +128,12 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - www.gco.gov.qa
-  - fbi.gov
   - 🇭🇰 icook.hk
-  - 🇷🇺 russia.com
-  - www.gov.ua
-  - 🇮🇸 time.is
   - www.wto.org
-  - www.gov.se
+  - 🇷🇺 russia.com
+  - 🇮🇸 time.is
   - brazil.com
+  - fbi.gov
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -186,29 +141,23 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - www.gco.gov.qa
-  - fbi.gov
   - 🇭🇰 icook.hk
-  - 🇷🇺 russia.com
-  - www.gov.ua
-  - 🇮🇸 time.is
   - www.wto.org
-  - www.gov.se
+  - 🇷🇺 russia.com
+  - 🇮🇸 time.is
   - brazil.com
+  - fbi.gov
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - www.gco.gov.qa
-  - fbi.gov
   - 🇭🇰 icook.hk
-  - 🇷🇺 russia.com
-  - www.gov.ua
-  - 🇮🇸 time.is
   - www.wto.org
-  - www.gov.se
+  - 🇷🇺 russia.com
+  - 🇮🇸 time.is
   - brazil.com
+  - fbi.gov
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
