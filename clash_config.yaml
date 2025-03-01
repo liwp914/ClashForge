@@ -132,8 +132,8 @@ proxy-groups:
   - 🇭🇰 icook.hk
   - 🇮🇸 time.is
   - brazil.com
-  - 🇷🇺 russia.com
   - fbi.gov
+  - 🇷🇺 russia.com
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -145,8 +145,8 @@ proxy-groups:
   - 🇭🇰 icook.hk
   - 🇮🇸 time.is
   - brazil.com
-  - 🇷🇺 russia.com
   - fbi.gov
+  - 🇷🇺 russia.com
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
@@ -156,8 +156,8 @@ proxy-groups:
   - 🇭🇰 icook.hk
   - 🇮🇸 time.is
   - brazil.com
-  - 🇷🇺 russia.com
   - fbi.gov
+  - 🇷🇺 russia.com
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
