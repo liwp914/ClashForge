@@ -128,10 +128,10 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - fbi.gov
-  - www.wto.org
   - 🇮🇸 time.is
   - 🇭🇰 icook.hk
+  - fbi.gov
+  - www.wto.org
   - 🇷🇺 russia.com
   - brazil.com
   url: http://www.pinterest.com
@@ -141,10 +141,10 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - fbi.gov
-  - www.wto.org
   - 🇮🇸 time.is
   - 🇭🇰 icook.hk
+  - fbi.gov
+  - www.wto.org
   - 🇷🇺 russia.com
   - brazil.com
   url: http://www.pinterest.com
@@ -152,10 +152,10 @@ proxy-groups:
 - name: 手动选择
   type: select
   proxies:
-  - fbi.gov
-  - www.wto.org
   - 🇮🇸 time.is
   - 🇭🇰 icook.hk
+  - fbi.gov
+  - www.wto.org
   - 🇷🇺 russia.com
   - brazil.com
 rules:
