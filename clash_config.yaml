@@ -115,9 +115,9 @@ proxy-groups:
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
   - www.wto.org
-  - brazil.com
-  - 🇮🇸 time.is
   - fbi.gov
+  - 🇮🇸 time.is
+  - brazil.com
   - 🇭🇰 icook.hk
   url: http://www.pinterest.com
   interval: 300
@@ -127,9 +127,9 @@ proxy-groups:
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
   - www.wto.org
-  - brazil.com
-  - 🇮🇸 time.is
   - fbi.gov
+  - 🇮🇸 time.is
+  - brazil.com
   - 🇭🇰 icook.hk
   url: http://www.pinterest.com
   interval: 300
@@ -137,9 +137,9 @@ proxy-groups:
   type: select
   proxies:
   - www.wto.org
-  - brazil.com
-  - 🇮🇸 time.is
   - fbi.gov
+  - 🇮🇸 time.is
+  - brazil.com
   - 🇭🇰 icook.hk
 rules:
 - DOMAIN,app.adjust.com,DIRECT
