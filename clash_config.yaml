@@ -115,8 +115,8 @@ proxy-groups:
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
   - www.wto.org
-  - 🇮🇸 time.is
   - brazil.com
+  - 🇮🇸 time.is
   - 🇭🇰 icook.hk
   - fbi.gov
   url: http://www.pinterest.com
@@ -127,8 +127,8 @@ proxy-groups:
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
   - www.wto.org
-  - 🇮🇸 time.is
   - brazil.com
+  - 🇮🇸 time.is
   - 🇭🇰 icook.hk
   - fbi.gov
   url: http://www.pinterest.com
@@ -137,8 +137,8 @@ proxy-groups:
   type: select
   proxies:
   - www.wto.org
-  - 🇮🇸 time.is
   - brazil.com
+  - 🇮🇸 time.is
   - 🇭🇰 icook.hk
   - fbi.gov
 rules:
