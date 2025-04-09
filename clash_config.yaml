@@ -117,8 +117,8 @@ proxy-groups:
   - fbi.gov
   - 🇭🇰 icook.hk
   - 🇮🇸 time.is
-  - brazil.com
   - www.wto.org
+  - brazil.com
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -129,8 +129,8 @@ proxy-groups:
   - fbi.gov
   - 🇭🇰 icook.hk
   - 🇮🇸 time.is
-  - brazil.com
   - www.wto.org
+  - brazil.com
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
@@ -139,8 +139,8 @@ proxy-groups:
   - fbi.gov
   - 🇭🇰 icook.hk
   - 🇮🇸 time.is
-  - brazil.com
   - www.wto.org
+  - brazil.com
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
