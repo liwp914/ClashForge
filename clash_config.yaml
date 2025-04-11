@@ -114,11 +114,11 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
+  - brazil.com
+  - fbi.gov
+  - 🇮🇸 time.is
   - www.wto.org
   - 🇭🇰 icook.hk
-  - 🇮🇸 time.is
-  - fbi.gov
-  - brazil.com
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -126,21 +126,21 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
+  - brazil.com
+  - fbi.gov
+  - 🇮🇸 time.is
   - www.wto.org
   - 🇭🇰 icook.hk
-  - 🇮🇸 time.is
-  - fbi.gov
-  - brazil.com
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
+  - brazil.com
+  - fbi.gov
+  - 🇮🇸 time.is
   - www.wto.org
   - 🇭🇰 icook.hk
-  - 🇮🇸 time.is
-  - fbi.gov
-  - brazil.com
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
